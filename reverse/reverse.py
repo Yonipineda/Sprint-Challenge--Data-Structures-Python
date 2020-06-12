@@ -50,3 +50,6 @@ class LinkedList:
         r = self.reverse_list(next_node, None)
         r = r.set_next(node)
         return r
+
+# reverse done 
+# O(n) runtime.
